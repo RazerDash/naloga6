@@ -6,8 +6,7 @@ done
 
 for i in 1 2 3 4 5
 do
-useradd user$i
-echo password$i | passwd user$i
+useradd user$i passwd user$i
 done
 
 
