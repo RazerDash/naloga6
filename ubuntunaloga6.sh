@@ -1,3 +1,4 @@
+mkdir Documents Desktop Downloads Pictures Videos 
 for i in {1..5}
 do
 mkdir folder$i
