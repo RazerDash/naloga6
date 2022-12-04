@@ -12,6 +12,7 @@ done
 
 sudo apt-get update
 sudo apt-get upgrade -y
+sudo dpgk --configure -a
 
 sudo apt-get install ufw
 sudo apt-get install git
