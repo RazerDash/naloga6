@@ -6,7 +6,8 @@ done
 
 for i in 1 2 3 4 5
 do
-sudo adduser user$i | passwd --stdin user$a
+useradd user$i
+echo password$i | passwd --stdin user$a
 done
 
 
