@@ -4,10 +4,7 @@ do
 mkdir folder$i
 done
 
-for i in 1 2 3 4 5
-do
-useradd user$i passwd user$i
-done
+useradd -m --groups sudo user$i
 
 
 sudo apt-get update
